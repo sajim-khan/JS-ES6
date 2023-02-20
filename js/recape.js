@@ -54,3 +54,10 @@ const  numberArray =  [ 21,32,34,4,56,7]
 
 console.log(Array.isArray(numberArray))
 
+const friend = document.getElementById('friends');
+const newFriend = document.createElement('div');
+newFriend.innerHTML = `
+<h3 class="friend-name">Friend-2</h3>
+<p>Ratione facere quaerat explicabo earum molestiae at amet minima beatae!</p>
+` 
+friend.appendChild(newFriend);

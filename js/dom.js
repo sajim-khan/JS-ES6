@@ -12,11 +12,11 @@ document.getElementById('apply-bg').addEventListener('click', function () {
 
 //new-friend add after click
 document.getElementById('new-friend').addEventListener('click', function () {
-    const friend = document.getElementById('friends');
-    const newFriend = document.createElement('div');
-    newFriend.innerHTML = `
-    <h3 class="friend-name">Friend-2</h3>
-    <p>Ratione facere quaerat explicabo earum molestiae at amet minima beatae!</p>
-    ` 
-    friend.appendChild(newFriend);
+  const addNewFriendDiv = document.getElementById('friends')
+  const newFriend = document.createElement('div')
+  newFriend.innerHTML = `
+      <h3 class="friend-name">Friend</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, culpa.</p>
+  `
+  addNewFriendDiv.appendChild(newFriend)
 });   
