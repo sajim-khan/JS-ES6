@@ -11,7 +11,7 @@ function add (num1, num2 =0) {
     return result;
 }
 
-console.log(add(10));
+//console.log(add(10));
 
 // Example 3
 function myName (first, second='khan') {
@@ -21,4 +21,12 @@ function myName (first, second='khan') {
 
 //console.log(myName('My name is :',('Sajim Khan')));
 console.log(myName('Sajim'));
+
+// Arrow function
+function add (num1, num2) {
+    const result = num1 + num2;
+    return result;
+}
+const result = add(10,20)
+//console.log(result);
 

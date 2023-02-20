@@ -20,3 +20,4 @@ const myName = 'Shahadat Hossain' + ' ' + name
 console.log(myName) 
 
 
+// Arrow function
