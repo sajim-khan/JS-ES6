@@ -18,11 +18,11 @@ const doubleIt = (num) => num * 2;
 // one parameter simple version
 const fiveTimes = (num) => num * 5;
 
-const doMath = (a, b, c) => {
+const doMath = (a, b) => {
     const sum = a + b;
     const mul = a * b;
     const result = mul / sum;
     return result;
 }
-const result1 = doMath(5,6,7);
+const result1 = doMath(5,6);
 console.log(result1);
